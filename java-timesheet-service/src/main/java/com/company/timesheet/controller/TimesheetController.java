@@ -1,10 +1,10 @@
-package com.example.timesheet.controller;
+package com.company.timesheet.controller;
 
-import com.example.timesheet.dto.IssueDto;
-import com.example.timesheet.dto.WorklogSuggestion;
-import com.example.timesheet.service.GatewayClient;
-import com.example.timesheet.service.JiraClient;
-import com.example.timesheet.service.TempoClient;
+import com.company.timesheet.dto.IssueDto;
+import com.company.timesheet.dto.WorklogSuggestion;
+import com.company.timesheet.service.GatewayClient;
+import com.company.timesheet.service.JiraClient;
+import com.company.timesheet.service.TempoClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
